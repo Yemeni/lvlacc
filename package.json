@@ -1,0 +1,25 @@
+{
+  "name": "lvlacc",
+  "version": "0.0.0",
+  "description": "An accoutning application that uses levelDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js",
+    "test": "node test.js"
+  },
+  "browser": {
+    "leveldown": "level-js"
+  },
+  "author": "Yousef al-Hadhrami <967Bytes@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^4.2.1"
+  },
+  "dependencies": {
+    "level": "^1.3.0",
+    "level-js": "^2.2.2",
+    "level-sublevel": "^6.5.1",
+    "leveldown": "^1.4.1",
+    "levelup": "^1.2.1"
+  }
+}
